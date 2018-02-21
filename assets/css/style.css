@@ -1,0 +1,39 @@
+body {
+    background: black;
+}
+h2, h4 {
+    color: #adaaaa;
+}
+
+
+.name, #hp1, #hp2, #hp3, #hp4 {
+    color: #284346;
+    font-weight: bold;
+    font-size: 18px;
+}
+.character {
+    background: #2d939b;
+    border: solid 3px #adaaaa;
+    border-radius: 20px;
+}
+
+.myCharacter {
+    background: #61b486;
+    border: solid 3px #adaaaa;
+    border-radius: 20px;
+}
+
+.defender {
+    background: #b36666;
+    border: solid 3px #adaaaa;
+    border-radius: 20px;
+}
+.enemies {
+    background: #818181;
+    border: solid 3px #adaaaa;
+    border-radius: 20px;
+}
+#parent1 {
+    border-right: solid 2px #adaaaa;
+}
+
