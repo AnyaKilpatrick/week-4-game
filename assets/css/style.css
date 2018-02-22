@@ -11,7 +11,7 @@ h2, h4 {
     font-weight: bold;
     font-size: 18px;
 }
-.character {
+.character, .defender{
     background: #2d939b;
     border: solid 3px #adaaaa;
     border-radius: 20px;
@@ -23,16 +23,17 @@ h2, h4 {
     border-radius: 20px;
 }
 
-.defender {
-    background: #b36666;
+.myDefender {
+    background: #dd5454;
     border: solid 3px #adaaaa;
     border-radius: 20px;
 }
-.enemies {
+
+/* .enemies {
     background: #818181;
     border: solid 3px #adaaaa;
     border-radius: 20px;
-}
+} */
 #parent1 {
     border-right: solid 2px #adaaaa;
 }
