@@ -15,9 +15,9 @@ var pickedDefender = false;
 var characters = {
     "Tom Marvolo Riddle": {
         "Health Points": 180,
-        "Attack Power": 25,
+        "Attack Power": 22,
         "Counter Attack Power":19,
-        "Base Attack Power":4
+        "Base Attack Power":2
     },
     "Hermione Granger": {
         "Health Points": 140,
