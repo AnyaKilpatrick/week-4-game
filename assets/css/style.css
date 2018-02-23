@@ -29,12 +29,46 @@ h2, h4 {
     border-radius: 20px;
 }
 
-/* .enemies {
-    background: #818181;
-    border: solid 3px #adaaaa;
-    border-radius: 20px;
-} */
-#parent1 {
+#row1 {
     border-right: solid 2px #adaaaa;
 }
-
+/* md */
+@media screen and (max-width: 992px) {
+    .myCharacter {
+        max-width: 98%;
+        height: auto;
+    }
+    .myDefender {
+        max-width: 98%;
+        height: auto;
+    }
+}
+/* sm */
+@media screen and (max-width: 768px) {
+    .myCharacter {
+        max-width: 98%;
+        height: 200px;
+    }
+    .myDefender {
+        max-width: 98%;
+        height: 200px;
+    }
+}
+/* xs */
+@media screen and (max-width: 576px) {
+    #attackInfo {
+        max-width:90%;
+    }
+    .myCharacter, .myDefender {
+        max-width:50%;
+        min-height:auto;
+    }
+    .myCharacter img {
+        max-width:70%;
+        max-height:70%;
+    }
+    .myDefender img {
+        max-width:70%;
+        max-height:70%;
+    }
+}
