@@ -28,7 +28,9 @@ h2, h4 {
     border: solid 3px #adaaaa;
     border-radius: 20px;
 }
-
+#attackInfo {
+    color: #adaaaa;
+}
 #row1 {
     border-right: solid 2px #adaaaa;
 }
